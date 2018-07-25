@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  <url> 
+    <loc>http://www.beeline-pestcontrol.com/aboutus.jsp</loc> 
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/aboutus/picnic.jpg</image:loc> 
+    </image:image>
+<!--     <video:video>      -->
+<!--       <video:content_loc> -->
+<!--         http://www.example.com/video123.flv -->
+<!--       </video:content_loc> -->
+<!--       <video:player_loc allow_embed="yes" autoplay="ap=1"> -->
+<!--         http://www.example.com/videoplayer.swf?video=123 -->
+<!--       </video:player_loc> -->
+<!--       <video:thumbnail_loc> -->
+<!--         http://www.example.com/thumbs/123.jpg -->
+<!--       </video:thumbnail_loc> -->
+<!--       <video:title>Grilling steaks for summer</video:title>   -->
+<!--       <video:description> -->
+<!--         Get perfectly done steaks every time -->
+<!--       </video:description> -->
+<!--     </video:video> -->
+
+<!-- <changefreq>weekly</changefreq> -->
+<!-- <lastmod>2008-12-23T18:00:15+00:00</lastmod> -->
+<!-- <priority>0.3</priority> -->
+  </url>
+  <url> 
+    <loc>http://www.beeline-pestcontrol.com/beeguarantee.jsp</loc> 
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/guarantee/guaranteeSeal.png</image:loc> 
+    </image:image>
+  </url>
+  <url> 
+    <loc>http://www.beeline-pestcontrol.com/contactus.jsp</loc> 
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/contactus/truck.png</image:loc> 
+    </image:image>
+  </url>
+  <url> 
+    <loc>http://www.beeline-pestcontrol.com/coupons.jsp</loc> 
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/coupons/beelineCouponSheet.png</image:loc> 
+    </image:image>
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/coupons/couponBedBug.png</image:loc> 
+    </image:image>
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/coupons/couponNewCustomer.png</image:loc> 
+    </image:image>
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/coupons/couponSeniorCitizen.png</image:loc> 
+    </image:image>
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/coupons/couponTermite.png</image:loc> 
+    </image:image>
+  </url>
+  <url> 
+    <loc>http://www.beeline-pestcontrol.com/index.jsp</loc> 
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/home/kids-dogs-green-grass.gif</image:loc> 
+    </image:image>
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/shared/PointingBee.png</image:loc> 
+    </image:image>
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/shared/SimpleHoneycomb.jpg</image:loc> 
+    </image:image>
+  </url>
+  <url> 
+    <loc>http://www.beeline-pestcontrol.com/guide-ant.jsp</loc> 
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/guide/ants/antdrawn.jpg</image:loc> 
+    </image:image>
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/guide/ants/antstages.jpg</image:loc> 
+    </image:image>
+  </url>
+  <url> 
+    <loc>http://www.beeline-pestcontrol.com/guide-bedbug.jsp</loc> 
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/guide/bedbugs/bedbugdrawn.jpg</image:loc> 
+    </image:image>
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/guide/bedbugs/bedbugstages.jpg</image:loc> 
+    </image:image>
+  </url>
+  <url> 
+    <loc>http://www.beeline-pestcontrol.com/guide-bee.jsp</loc> 
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/guide/bees/beedrawn.jpg</image:loc> 
+    </image:image>
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/guide/bees/Beestages.jpg</image:loc> 
+    </image:image>
+  </url>
+  <url> 
+    <loc>http://www.beeline-pestcontrol.com/guide-spider.jsp</loc> 
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/guide/spiders/spiderdrawn.jpg</image:loc> 
+    </image:image>
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/guide/spiders/spiderstages.jpg</image:loc> 
+    </image:image>
+  </url>
+  <url> 
+    <loc>http://www.beeline-pestcontrol.com/guide-termite.jsp</loc> 
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/guide/termites/termitedrawn.jpg</image:loc> 
+    </image:image>
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/guide/termites/termitestages.jpg</image:loc> 
+    </image:image>
+  </url>
+  <url> 
+    <loc>http://www.beeline-pestcontrol.com/guide-other.jsp</loc> 
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/guide/other/otherdrawn.jpg</image:loc> 
+    </image:image>
+    <image:image>
+       <image:loc>http://www.beeline-pestcontrol.com/images/guide/other/otherstages.jpg</image:loc> 
+    </image:image>
+  </url>
+  
+</urlset>
