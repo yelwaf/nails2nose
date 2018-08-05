@@ -1,0 +1,60 @@
+body {
+	background-color: #85C1E9;
+	font-family:"Courier New", Courier, monospace;
+	
+}
+
+.center{
+	width:100%;
+	text-align:center;
+	
+	
+}
+.navigation-bar {
+    width: 75%; 
+    background-color: #85C1E9; /* change to desired color */
+    margin-left:300px;
+    
+    
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    height: 100px;
+    margin-top: 40px;   
+    float:left;
+}
+.navigation-bar a {
+    display: inline-block;
+    position:relative;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 125px; 
+    padding-right:20px;   
+    padding-left:20px;     
+    line-height: 165px;    /* if you want it vertically middle of the navbar */
+    color: grey;
+    text-decoration: none;
+    font-size: 24px;
+    font-family:"Courier New", Courier, monospace;
+    font-weight:bold;
+    -webkit-transition: font-size 0.5s;
+   -moz-transition:  font-size 0.5s;
+     -o-transition:  font-size 0.5s;
+        transition:  font-size 0.5s;
+}
+.navigation-bar a:hover {
+  color:white;
+  font-size:26px;
+}
+
+
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}

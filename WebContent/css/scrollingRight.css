@@ -1,3 +1,49 @@
+<<<<<<< HEAD
+/* Photo Banner */
+
+$photoCount: 10;
+$photoWidth: 350px;
+$photoHeight: 233px;
+
+.photo-roll--container {
+  width: 100%;
+  overflow: hidden;
+  margin: 10px auto;
+}
+
+.photo-roll {
+  height: $photoHeight;
+  width: ($photoWidth * $photoCount);
+  margin-bottom: 5px;
+  font-size: 0;
+
+  img {
+    margin-bottom: 10px;
+    margin-right: 5px;
+    height: $photoHeight;
+    width: $photoWidth;
+    transition: all 0.5s ease;
+
+    &:hover {
+      transform: scale(1.2);
+      cursor: pointer;
+    }
+    &:first-child {
+      animation: bannermove 30s linear infinite;
+    }
+  }
+}
+
+/* Keyframe animations*/
+
+@keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2130px;
+  }
+=======
 @charset "ISO-8859-1";
 
 
@@ -123,4 +169,5 @@ header p {
 	-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
 	-moz-box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
 	box-shadow: 0 3px 5px rgba(0, 0, 0, .2)
+>>>>>>> 7ca9f31e357f40b69bf1b3dcbdadd5eea947785a
 }
