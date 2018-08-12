@@ -1,30 +1,38 @@
 body {
 	background-color: #85C1E9;
 	font-family:"Courier New", Courier, monospace;
-	
+	padding:0px;
+	margin:0px;
 }
-
+#boxshadow{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width:100%;
+	position:relative;
+	height:146px;	
+}
 .center{
 	width:100%;
 	text-align:center;
-	
-	
+	background-color:#007dd1;
+	height:146px;
 }
+
 .navigation-bar {
     width: 75%; 
-    background-color: #85C1E9; /* change to desired color */
     margin-left:300px;
-    
-    
 }
+
 .logo {
     display: inline-block;
     vertical-align: top;
-    width: 300px;
-    height: 100px;
+    width: 200px;
+    height: 66px;
     margin-top: 40px;   
     float:left;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
+
 .navigation-bar a {
     display: inline-block;
     position:relative;
@@ -34,19 +42,21 @@ body {
     padding-right:20px;   
     padding-left:20px;     
     line-height: 165px;    /* if you want it vertically middle of the navbar */
-    color: grey;
+    color: white;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
     font-family:"Courier New", Courier, monospace;
     font-weight:bold;
     -webkit-transition: font-size 0.5s;
    -moz-transition:  font-size 0.5s;
      -o-transition:  font-size 0.5s;
         transition:  font-size 0.5s;
+        letter-spacing:1px;
 }
+
 .navigation-bar a:hover {
-  color:white;
-  font-size:26px;
+  color:grey;
+  font-size:24px;
 }
 
 
