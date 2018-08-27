@@ -1,12 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1" />
+<meta charset="ISO-8859-1">
 <title>Schedule</title>
-</head>
 <link rel="stylesheet" type="text/css"  href="css/Master.css" />
+<link rel="stylesheet" type="text/css"  href="css/Schedule.css" />
+</head>
+
+
 <body onload="initialize()">
-	
+	 <%@ include file='navigation.html'  %>
 	<input id="address" type="textbox">
 	<button id="submitter">Distance</button>
 	<div id="output"></div>
@@ -32,7 +37,7 @@
                        if (status == 'OK') {	              
                           var x=results[0].geometry.location;
 		           	   	  var destinationA = x;
-		           		  var origin1 = {lat:33.615, lng:-112.253};
+		           		  var origin1 = {lat:33.6152126, lng:-112.25393309999998};
 		           	        service.getDistanceMatrix({
 		           	          origins: [origin1],
 		           	          destinations: [destinationA],
