@@ -1,7 +1,24 @@
 body{
 	font-family:"Courier New", Courier, monospace;
-	font-size:60px;
+	font-size:24px;
 }
-.big{
-	font-size:66px !important;
+#output{
+	float:right;
+}
+.sitting{
+	padding-left:150px;
+	padding-top:50px;
+	height:100%;
+	width:40%;
+	opacity:1 !important;
+}
+#note{
+	font-size:12px !important;
+}
+#transparent{
+	opacity:1;
+	background-color:#85C1E9;
+	width:80%;
+	padding-left:150px;
+	padding-top:50px;
 }
